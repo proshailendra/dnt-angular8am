@@ -2,7 +2,7 @@ const express = require('express'),
     bodyParser = require('body-parser'),
     cors = require('cors'),
     path = require('path'),
-    routes = require('./routes'),
+    routes = require('./server/routes'),
     expressSession = require('express-session');
 
 const app = express();
