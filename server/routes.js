@@ -42,7 +42,7 @@ router.post('/paymentstatus', function (req, res) { //payment staus from payment
         res.end("Payment Failed");
     }
 }).get("*", (req, res) => { //angular route
-    res.sendFile(path.join(__dirname, '../../client/index.html'));
+    res.sendFile(path.join(__dirname, '../client/index.html'));
 });
 
 module.exports = router;
